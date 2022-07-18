@@ -1,0 +1,125 @@
+@font-face {
+  font-family: Inter;
+  src: url(Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter Bold;
+  src: url(Inter/static/Inter-ExtraBold.ttf);
+}
+
+body {
+  width: 24px;
+  height: 22px;
+  left: 372px;
+  top: 41px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 32px;
+}
+
+header img {
+  width: 198px;
+  height: 36px;
+  margin-right: 130px;
+}
+
+.hero {
+  position: absolute;
+  width: 482.62px;
+  height: 448px;
+  left: 32px;
+  top: 110px;
+  font-family: "Inter";
+}
+
+.hero p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FF3998;
+}
+
+.hero h1 {
+  font-family: 'Inter bold';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.hero h6 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #555555;
+  margin: 0px;
+}
+
+.hero img {
+  float: right;
+  width: 189.62px;
+  height: 278px;
+}
+
+.hero button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  width: 188px;
+  height: 75px;
+  border: 4px transparent;
+  border-radius: 100px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(white)), radial-gradient(circle at top left, #FF3998, #FF8139, #39FFA0, #FF3939);
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #FF3998, #FF8139, #39FFA0, #FF3939);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.upsell {
+  position: absolute;
+  width: 428px;
+  height: 326px;
+  left: 0px;
+  top: 638px;
+  background-image: url(assets/background.svg);
+  border-radius: none;
+  background-repeat: no-repeat;
+}
+
+.upsell img {
+  width: 428px;
+  height: 326px;
+}
+
+.press {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 428px;
+  height: 326px;
+  left: 5px;
+  top: 1031.03px;
+}
+
+.press button {
+  height: 40px;
+  width: 216px;
+}
+/*# sourceMappingURL=styles.css.map */
