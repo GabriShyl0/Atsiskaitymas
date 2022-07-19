@@ -6,7 +6,9 @@
     font-family: Inter Bold;
     src: url(Inter/static/Inter-ExtraBold.ttf);
 }
-
+main{
+    padding: 0 10;
+}
 body{
 width: 24px;
 height: 22px;
@@ -26,11 +28,10 @@ img{
 }
 }
 .hero{
-position: absolute;
+
 width: 482.62px;
 height: 448px;
 left: 32px;
-top: 110px;
 font-family: "Inter";
 p{
     font-family: 'Inter';
@@ -79,25 +80,33 @@ button{
       }
     }
     .upsell{
-position: absolute;
 width: 428px;
 height: 326px;
-left: 0px;
-top: 638px;
 background-image: url(assets/background.svg);
-border-radius: none;
 background-repeat: no-repeat;
+background-position: center;
 img{
 width: 428px;
 height: 326px;
 }
 }
     .press{
-
 width: 428px;
-height: 326px;
-left: 5px;
-top: 1031.03px;
+height: 117px;
+    }
+    .showcase{
+        width: 428px;
+        height: 326px;
+        
+        h6{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            color: #555555;
+            margin: 0px;
+            }
     }
 
     

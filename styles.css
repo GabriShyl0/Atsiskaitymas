@@ -8,6 +8,10 @@
   src: url(Inter/static/Inter-ExtraBold.ttf);
 }
 
+main {
+  padding: 0 10;
+}
+
 body {
   width: 24px;
   height: 22px;
@@ -32,11 +36,9 @@ header img {
 }
 
 .hero {
-  position: absolute;
   width: 482.62px;
   height: 448px;
   left: 32px;
-  top: 110px;
   font-family: "Inter";
 }
 
@@ -92,14 +94,11 @@ header img {
 }
 
 .upsell {
-  position: absolute;
   width: 428px;
   height: 326px;
-  left: 0px;
-  top: 638px;
   background-image: url(assets/background.svg);
-  border-radius: none;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .upsell img {
@@ -108,18 +107,22 @@ header img {
 }
 
 .press {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 428px;
-  height: 326px;
-  left: 5px;
-  top: 1031.03px;
+  height: 117px;
 }
 
-.button1 {
-  height: 40px;
-  width: 216px;
+.showcase {
+  width: 428px;
+  height: 326px;
+}
+
+.showcase h6 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #555555;
+  margin: 0px;
 }
 /*# sourceMappingURL=styles.css.map */
