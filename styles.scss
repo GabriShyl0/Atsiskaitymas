@@ -6,25 +6,29 @@
     font-family: Inter Bold;
     src: url(Inter/static/Inter-ExtraBold.ttf);
 }
+
+
 main{
-    padding: 0 10;
+    width: 428px;
+    padding: 0 0 0 10px;
+
 }
 body{
-width: 24px;
-height: 22px;
-left: 372px;
-top: 41px;
+position: relative;
+width: 428px;
+margin: 0px;
+padding: 0px;
 }
 header{
+    width: 428px;
     display: flex;
     justify-content: space-between;
-    padding: 32px;
-    
+    padding: 32px;  
 
 img{
     width: 198px;
     height: 36px;
-    margin-right: 130px;
+    
 }
 }
 .hero{
@@ -80,8 +84,6 @@ button{
       }
     }
     .upsell{
-        display: flex;
-        align-items: center;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -96,13 +98,14 @@ width: 428px;
 height: 326px;
 }
 h2{
-    font-size: 40px;
+    font-size: 30pt;
 }
 }
     .press{
 width: 428px;
 height: 117px;
 .button{
+    padding-right: 20px;
     justify-content: space-between;
     border: none;
     background-color: white;
@@ -110,18 +113,124 @@ height: 117px;
     }
     .showcase{
         width: 428px;
-        height: 326px;
+        height: 150px;
         
         h6{
             font-family: 'Inter';
             font-style: normal;
-            font-weight: 400;
             font-size: 20px;
-            line-height: 150%;
             color: #555555;
             margin: 0px;
             }
     }
+    .cards{
+        width: 290px;
+        border-radius: 16px;
+
+   .cards-1{
+        width: 290px;
+        height: 278px;
+    }
+    }
+    .cards-text{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 290px;
+        height: 122px;
+        background: #EEEEEE;
+        border-bottom-left-radius: 50px 20px;
+        border-bottom-right-radius: 50px 20px;
+        img{right: 120px;
+            top: 81%;
+            bottom: 13.5%;
+            width: 13px;
+            height: 22px;
+        }
+        h6{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+text-align: right;
+color: #777777;
+        }
+        span{
+            
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 100%;
+                text-align: right;
+                color: #777777;
+                        }
+                        p{
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 100%;
+                            text-align: left;
+                            color: #777777; 
+                        }
+        }
+       
+    footer{
+width: 428px;
+padding: 30px;
+img{
+    padding: 0 10px;
+}
+h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #777777;
+    }
+}
+.links-all{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 260px;
+    height: 283px;
+    padding: 0 32px;
+
+    
+
+h6{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+color: #777777;
+padding: 5px;
+margin: 5px;
+    }
+    a{   
+        display: flex;
+        padding: 5px;
+        text-decoration: none;
+        color: #555555;
+    }
+}
+.copyright{
+    width: 260px;
+
+    h6{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        color: #777777;
+        padding: 5px;
+        margin: 5px;
+}
+}
 
     
 
