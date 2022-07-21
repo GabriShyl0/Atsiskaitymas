@@ -264,4 +264,14 @@ footer h6 {
   padding: 5px;
   margin: 5px;
 }
+
+@media screen and (min-width: 429px) {
+  main .hero {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    width: 1120px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
