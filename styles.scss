@@ -15,25 +15,43 @@ main{
 }
 body{
 position: relative;
-width: 428px;
+width: 400px;
 margin: 0px;
 padding: 0px;
 }
 header{
-    width: 428px;
+    width: 400px;
     display: flex;
     justify-content: space-between;
     padding: 32px;  
 
 img{
-    width: 198px;
+    width: 150px;
     height: 36px;
-    
 }
+
+.nav-box{
+    width: 75px;
+   height: 20px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 100%;
+   color:#555555;
+   text-decoration: none;
+   }
+   .pink-text{
+    color: #FF3998;
+   }
+}
+.container{
+    margin-inline: auto;
+
 }
 .hero{
 
-width: 482.62px;
+width: 400px;
 height: 448px;
 left: 32px;
 font-family: "Inter";
@@ -41,7 +59,7 @@ p{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -51,14 +69,14 @@ h1{
     font-family: 'Inter bold';
     font-style: normal;
     font-weight: 900;
-    font-size: 48px;
+    font-size: 24px;
     line-height: 58px;
 }
 h6{
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 16px;
 line-height: 150%;
 color: #555555;
 margin: 0px;
@@ -100,7 +118,7 @@ height: 326px;
 h2{
     font-size: 30pt;
 }
-}
+    }
     .press{
 width: 428px;
 height: 117px;
@@ -111,7 +129,12 @@ height: 117px;
     background-color: white;
 }
     }
+    .cards-row{
+        display: inline-flex;
+        padding: 15px;
+    }
     .showcase{
+        padding: 15px;
         width: 428px;
         height: 150px;
         
@@ -126,6 +149,7 @@ height: 117px;
     .cards{
         width: 290px;
         border-radius: 16px;
+        padding: 0 10px;
 
    .cards-1{
         width: 290px;
@@ -133,30 +157,32 @@ height: 117px;
     }
     }
     .cards-text{
-        display: grid;
-        grid-template-columns: auto auto;
+        display: flex;
         width: 290px;
         height: 122px;
         background: #EEEEEE;
         border-bottom-left-radius: 50px 20px;
         border-bottom-right-radius: 50px 20px;
-        img{right: 120px;
-            top: 81%;
-            bottom: 13.5%;
-            width: 13px;
-            height: 22px;
+    .column-1{
+    flex:50%;
+    }
+     img{
+        right: 120px;
+        top: 81%;
+        bottom: 13.5%;
+        width: 13px;
+        height: 22px;
         }
-        h6{
+     h6{
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 100%;
-text-align: right;
 color: #777777;
+padding: 0 10px;
         }
         span{
-            
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
@@ -164,6 +190,7 @@ color: #777777;
                 line-height: 100%;
                 text-align: right;
                 color: #777777;
+                padding: 0 10px;
                         }
                         p{
                             font-family: 'Inter';
@@ -172,16 +199,27 @@ color: #777777;
                             font-size: 12px;
                             line-height: 100%;
                             text-align: left;
+                            color: #f628a0; 
+                            padding: 0 10px;
+                        }
+                        .title{
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 100%;
+                            text-align: left;
                             color: #777777; 
+                            padding: 0 10px;
                         }
         }
-       
+       .cards-big{
+        padding: 0 10px;
+       }
     footer{
-width: 428px;
+width: 400px;
 padding: 30px;
-img{
-    padding: 0 10px;
-}
+margin: 75px 0;
 h6{
     font-family: 'Inter';
     font-style: normal;
@@ -231,17 +269,8 @@ margin: 5px;
         margin: 5px;
 }
 }
-@media screen and (min-width: 429px) {
-main{
-        .hero{
-        display: grid;
-        grid-template-columns: auto auto;
-        width: 1120px;   
-        } 
-       
-    }
-}
 
+    
 
 
     
